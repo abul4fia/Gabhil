@@ -207,6 +207,8 @@ class AnnotationExtractor:
         if self.cfg.dump_stdout:
             print(md)
             return
+        if not md:
+            return
         if self.cfg.append_file:
             mode = "a"
         else:
