@@ -44,3 +44,28 @@ Open one of these files and look how your highlights and notes were converted to
 It is advisable to remove the processed messages from the inbox in your mail, so that they are not processed again in the next run of gabhil.
 
 Happy reading!
+
+
+# Example
+
+Taking notes in Apple Books:
+
+![Apple Books screen](imgs/apple_books_screen.jpg)
+
+Resulting markdown file after running Gabhil (with default configuration):
+
+```markdown
+- title:: "The Zoologist’s Guide to the Galaxy"
+  author:: "Arik Kershenbaum"
+  source:: "Kershenbaum, Arik. “The Zoologist’s Guide to the Galaxy.” Penguin Books Ltd, 2021-03-04. Apple Books."
+  imported:: 2022-04-13 18:48:55.504438
+- # Title Page, p. 44
+        - 🟩 Explaining how complex life forms exist at all is a far harder challenge than it may seem at first glance
+        - 📌 Providing a definition of life has been a challenge for philosophers for as long as humans have existed
+        - 🟦 Given that a boulder will always tend to roll down a hill, how can we get a boulder to the top of the hill
+                - 📝 Violates second law of thermodynamics?
+```
+
+Result shown in Logseq:
+
+![Logseq Screen](imgs/logseq_result.png)
